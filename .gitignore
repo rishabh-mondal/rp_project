@@ -1,1 +1,15 @@
-rp_project/rp_project/crossval_data/
+# Ignore everything by default
+*
+
+# Unignore directories so that we can unignore specific files in them
+!*/
+
+# Unignore .py and .sh files
+!*.py
+!*.sh
+
+# Ignore specific files and directories
+rp_project/rp_project/crossval_data/solar_panel_1/
+rp_project/rp_project/crossval_data/solar_panel_2/
+rp_project/rp_project/crossval_data/solar_panel_3/
+rp_project/rp_project/crossval_data/solar_panel_4/
